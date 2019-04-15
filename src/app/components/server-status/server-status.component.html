@@ -1,0 +1,6 @@
+<input type="button"
+       class="btn btn-primary"
+       value="Get Server Status"
+       (click)="getData()">
+
+       <app-server-status-display [status]="status$ | async"></app-server-status-display>
